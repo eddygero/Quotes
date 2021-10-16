@@ -1,9 +1,10 @@
 .card-footer { 
   padding: 1%;
   margin-bottom: 0 !important;
-  background-color: rgb(228, 35, 35);
+  background-color: rgb(248, 188, 188);
 }
 
 button { /*positions all buttons*/
   float: right;
+  background: linear-gradient(90deg, rgba(61, 223, 235, 0.945) 0%, rgb(14, 250, 199) 50%, rgb(74, 238, 33) 100% );
 }

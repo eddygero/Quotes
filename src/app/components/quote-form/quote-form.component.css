@@ -1,0 +1,9 @@
+button { /*positions all buttons*/
+    float: centre;
+    background: linear-gradient(90deg, rgba(61, 223, 235, 0.945) 0%, rgb(14, 250, 199) 50%, rgb(74, 238, 33) 100% );
+  }
+
+body {
+
+    background-color: aqua;
+}
