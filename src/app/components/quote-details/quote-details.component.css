@@ -1,0 +1,9 @@
+.card-footer { 
+  padding: 1%;
+  margin-bottom: 0 !important;
+  background-color: rgb(228, 35, 35);
+}
+
+button { /*positions all buttons*/
+  float: right;
+}

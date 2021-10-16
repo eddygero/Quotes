@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap');
+
+div.container-fluid {
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  /* gives the header a gradient background */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(144, 66, 233, 0.945) 0%, rgb(169, 4, 175) 50%, rgb(247, 7, 247) 100% );
+  color: white;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 3%;
+}
+
+.header img {
+  width: 80px;
+  height: 90px;
+  padding-bottom: 40px;
+}
+
+.row {
+  padding: 2%;
+}
+
+.blockquote {
+  font-size: 1rem;
+}
+
+button {
+  padding: 2px;
+}
+
+.card {
+  /*animates card elements*/
+  margin: 3%;
+  width: 20rem;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  /* animates card motion on hover */
+  transform: translateY(-7px);
+}
+
+.cards {
+  /*allows for cards to append side by side*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+small {
+  /* changes cursor for small text */
+  cursor: pointer;
+}
+
+.nothingToSee {
+  padding: 8%;
+}

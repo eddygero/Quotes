@@ -1,0 +1,64 @@
+<form
+  (ngSubmit)="submitQuote(quoteForm) ;quoteForm.resetForm({})"
+  #quoteForm="ngForm"
+>
+  <div class="form-group">
+    <label for="quote">Enter quote:</label>
+    <textarea
+      class="form-control"
+      id="quote"
+      rows="5"
+      required
+      [(ngModel)]="newQuote.quote"
+      name="quote"
+      #quote="ngModel"
+      placeholder="The quote..."
+    ></textarea>
+    <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
+      A quote is required
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="author">Author:</label>
+    <input
+      type="text"
+      required
+      class="form-control"
+      id="author"
+      style="width: 60%;"
+      [(ngModel)]="newQuote.author"
+      name="author"
+      #author="ngModel"
+      placeholder="Author of the quote..."
+    />
+    <div
+      [hidden]="author.valid || author.pristine"
+      class="alert alert-danger"
+      style="width: 50%;"
+    >
+      Author:
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="submitter">Submitted by:</label>
+    <input
+      type="text"
+      class="form-control"
+      id="submitter"
+      required
+      style="width: 60%;"
+      [(ngModel)]="newQuote.submitter"
+      name="submitter"
+      #submitter="ngModel"
+      placeholder="Your name..."
+    />
+    <div
+      [hidden]="submitter.valid || submitter.pristine"
+      class="alert alert-danger"
+      style="width: 50%;"
+    >
+       Enter your name
+    </div>
+  </div>
+  <button type="submit" class="btn btn-outline-primary" [disabled]="!quoteForm.form.valid">Add Quote</button>
+</form>
