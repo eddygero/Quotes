@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description
 This is an application that enables users to create quotes and have those quotes voted on whether they are bad or are good.It also has its own existing Quotes that a user can refer to.A user can also delete a quote. A link to my live page:
 
+## Author
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
