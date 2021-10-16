@@ -40,7 +40,7 @@ button {
 
 .card {
   /*animates card elements*/
-  margin: 3%;
+  margin: 4%;
   width: 20rem;
   transform: translateY(-3px);
   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
@@ -66,3 +66,4 @@ small {
 .nothingToSee {
   padding: 8%;
 }
+

@@ -17,8 +17,9 @@ export class QuotifyComponent implements OnInit {
     new Quote('“You might not have a car or a big gold chain, stay true to yourself and things will change.”', ' Snoop Dogg.', 'Allan Omondi', new Date(2021, 9, 16), 5, 0),
     new Quote('“Remind yourself. Nobody built like you, you design yourself.”', 'Jay-Z.', 'Angela Ann', new Date(2021, 9, 16), 2, 1),
     new Quote('“Live your life, live it right. Be different, do different things.”', 'Kendrick Lamar.', 'Pamela Obuya', new Date(2021, 9, 16), 1, 5),
-    new Quote('“Keep on pushing the boundaries and reaching for higher heights.”', 'Sean Combs.', 'Gero Temitayo', new Date(2021, 9, 16), 1, 1),
+    new Quote('“Keep on pushing the boundaries and reaching for higher heights.”', 'Sean Combs.', 'Gero Temitayo', new Date(2021, 9, 16), 3, 1),
     new Quote('“How many people you bless is how you measure success”', ' Rick Ross.', 'Baby Girl', new Date(2021, 9, 16), 3, 2),
+    new Quote('If it makes you nervous- you’re doing it right.”', ' Childish Gambino.', 'Tan Tuddy', new Date(2021, 9, 16), 3, 2),
   ];
 
   toggleDetails(index) {
