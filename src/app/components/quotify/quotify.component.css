@@ -8,7 +8,7 @@ div.container-fluid {
 .header {
   /* gives the header a gradient background */
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(144, 66, 233, 0.945) 0%, rgb(169, 4, 175) 50%, rgb(247, 7, 247) 100% );
+  background: url(https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   color: white;
 }
 
